@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+ // Graphical variables
+@import "config/fonts";
+
+// External libraries
+//@import "font-awesome";
+
+// Your CSS partials
+@import "pages/home";
+@import "components/button";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}

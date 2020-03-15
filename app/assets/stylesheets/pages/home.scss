@@ -1,0 +1,50 @@
+.banner {
+  background: asset-url("rodion.jpg");
+  background-size: cover;
+  height: 75vh;
+}
+
+.banner-container {
+  width: 75vw;
+  padding: 100px;
+}
+
+.banner-container h1 {
+  font-size: 2.5em;
+  color: #F4F4F4;
+  padding-left: 150px;
+}
+#name {
+  color: #E57A72;
+
+}
+
+.chevron-down {
+  font-size: 1.5em;
+  color: #F4F4F4;
+  margin-top: 75px;
+}
+
+.chevron-down  {
+  padding-left: 150px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+}
+
+.chevron-down .fa-chevron-down {
+  padding-left: 204px;
+  font-size: 2.5em;
+}
+
+.container {
+  grid-template-columns: 50% 250px 150px;
+  display: grid;
+}
+
+.container .introduction {
+  width: 100%;
+}
+
+.lavender {
+  color: #D3B8CA;
+}
