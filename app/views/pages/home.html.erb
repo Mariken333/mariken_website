@@ -1,26 +1,35 @@
 <div class="header">
   <div class="banner">
     <div class="banner-container">
-      <h1>Hi I am <span id="name">Mariken</span><br>I am a full-stack web developer</h1>
-      <div class="chevron-down">
-        <a href="#" class="btn-green">Find out more</a>
-        <i class="fas fa-chevron-down"></i>
+      <h1>Hi I am <span id="name">Mariken</span> <br>I am a full-stack web developer</h1>
+      <a href="#" class="btn-green">Find out more</a>
+    </div>
+    <div class="chevron-down">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3>My skills</h3>
+    <div class="skills">
+      <div class="rails">
+        <%= image_tag("ruby", height: "100px", width: "auto")%>
+      </div>
+      <div class="html5">
+        <%= image_tag("html", height: "100px", width: "auto")%>
+      </div>
+      <div class="css">
+        <%= image_tag("css", height: "100px", width: "auto") %>
+      </div>
+      <div class="javas">
+        <%= image_tag("js", height: "100px", width: "auto")%>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="introduction">
-      <h3>Who am I?</h3>
+   <div class="container">
+    <h3>My passion for coding</h3>
+
     </div>
   </div>
-  <div class="container">
-    <h3>My skills</h3>
-      <ul>
-        <li>Ruby on Rails</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-  </div>
-  <%=  link_to "About me", pages_about_path %>
+  <%=  link_to "About me", pages_about_path, class: "btn-green" %>
 </div>
