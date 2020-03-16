@@ -5,15 +5,47 @@
       <a href="#" class="btn-green">Find out more</a>
     </div>
     <div class="chevron-down">
-      <a href=""><i class="fas fa-chevron-down"></i></a>
+     <a href="" id="scroll-arrow"><i class="fas fa-chevron-down"></i></a>
     </div>
   </div>
 </div>
 <div class="main">
- <h2>My skills</h2>
+  <div class="container">
+    <h2>My skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Ruby</li>
+      <li>Rails</li>
+    </ul>
+  </div>
+  <div class="container">
+    <h2>My projects</h2>
+    <div class="grid-projects">
+      <div class="project1">
+        <a href="https://www.helpal.today/" target="_blank">Helpal</a>
+      <div>
+        <a href="https://www.helpal.today/" target="_blank"><%= image_tag("helpal", width: '350', height: '250')%></a>
+      </div>
+      </div>
 
-    <h2>My passion for coding</h2>
-    <div class="container">
+      <div class="project2">
+        <a href="https://cars-bnb.herokuapp.com/cars" target="_blank">CarsBnB</a>
+      <div>
+        <a href="https://cars-bnb.herokuapp.com/cars" target="_blank"><%= image_tag("cars", width: '350', height: '250')%></a>
+      </div>
+      </div>
+
+      <div class="project-other">
+        <a href="https://github.com/Mariken333" target="_blank">Projects on GitHub</a>
+        <div>
+           <a href="https://github.com/Mariken333" target="_blank"><%= image_tag("github.svg.png", width: '50')%></a>
+        </div>
+      </div>
+
+
     </div>
+  </div>
 </div>
-  <%=  link_to "About me", pages_about_path, class: "btn-green" %>
+<%=  link_to "About me", pages_about_path, class: "btn-green" %>

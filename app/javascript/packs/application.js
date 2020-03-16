@@ -14,7 +14,9 @@
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-import { changeFontcolor } from './change_fontcolor.js';
-
 console.log('Hello World from Webpacker')
-changeFontcolor();
+import { scroll } from "./scroll";
+
+scroll();
+
+
