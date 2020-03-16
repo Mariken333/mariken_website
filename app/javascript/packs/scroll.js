@@ -1,9 +1,15 @@
-const arrow = document.getElementById("scroll-arrow");
 
 const scroll = () => {
+  const arrow = document.getElementById("scroll-arrow");
+
   arrow.addEventListener("click", (event) => {
-        event.window.scrollBy(0, 250);
+    window.scrollTo({
+      top: 425,
+      left: 0,
+      behavior: "smooth"
+    })
   });
- };
+};
+
 
 export { scroll };
