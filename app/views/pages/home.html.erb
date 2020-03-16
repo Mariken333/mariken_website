@@ -8,18 +8,27 @@
       <a href=""><i class="fas fa-chevron-down"></i></a>
     </div>
   </div>
-
-    <h2>My skills</h2>
-    <div class="container">
-
-    <div class="skills">
-
-  </div>
-   <h2>My passion for coding</h2>
-   <div class="container">
-
-
-    </div>
-  </div>
-  <%=  link_to "About me", pages_about_path, class: "btn-green" %>
 </div>
+<div class="main">
+ <h2>My skills</h2>
+    <div class="container">
+      <div class="skills">
+        <div class="rails">
+          <%= image_tag("ruby", height: "100px", width: "auto")%>
+        </div>
+        <div class="html5">
+          <%= image_tag("html", height: "100px", width: "auto")%>
+        </div>
+        <div class="css">
+          <%= image_tag("css", height: "100px", width: "auto") %>
+        </div>
+        <div class="javas">
+          <%= image_tag("js", height: "100px", width: "auto")%>
+        </div>
+      </div>
+    </div>
+    <h2>My passion for coding</h2>
+    <div class="container">
+    </div>
+</div>
+  <%=  link_to "About me", pages_about_path, class: "btn-green" %>
