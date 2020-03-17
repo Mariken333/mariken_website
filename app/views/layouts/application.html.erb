@@ -10,13 +10,20 @@
   </head>
 
   <body>
-  <%= yield %>
-  <div class="footer">
-    <ul class="social-media-icon">
-      <li><a href="https://www.linkedin.com/in/mariken-van-gulpen-18942243/" target="_blank"> <i class="fab fa-linkedin-in"></i></a></li>
-      <li> <a href="https://github.com/Mariken333" target="_blank"><i class="fab fa-github"></i></a></li>
-    </ul>
-  </div>
-  <%= javascript_pack_tag "application" %>    <!-- from app/javascript/packs/application.js -->
+    <div class="navbar">
+      <ul class="navbar-list">
+        <li><%= link_to "HOME", pages_home_path %></li>
+        <li><%= link_to "ABOUT", pages_about_path %></li>
+        <li><a href="#">BLOG</a></li>
+      </ul>
+    </div>
+    <%= yield %>
+    <div class="footer">
+      <ul class="social-media-icon">
+        <li><a href="https://www.linkedin.com/in/mariken-van-gulpen-18942243/" target="_blank"> <i class="fab fa-linkedin-in"></i></a></li>
+        <li> <a href="https://github.com/Mariken333" target="_blank"><i class="fab fa-github"></i></a></li>
+      </ul>
+    </div>
+    <%= javascript_pack_tag "application" %>    <!-- from app/javascript/packs/application.js -->
   </body>
 </html>
