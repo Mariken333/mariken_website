@@ -23,6 +23,13 @@
 
 #name {
   color: #E57A72;
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+
+#name:hover {
+  color: #FF8C42;
+  font-size: 64px;
 }
 
 .chevron-down .fa-chevron-down {
@@ -31,10 +38,11 @@
   text-decoration: none;
   color: white;
   font-size: 55px;
+  transition-property: font-size;
 }
 
 .fa-chevron-down:hover {
-  color: rgba(244, 244, 244, 0.7);
+  font-size: 75px;
 }
 
 .container {
@@ -66,6 +74,11 @@
 .grid-projects a:hover {
   text-decoration: none;
   color: rgb(154, 154, 154);
+}
+
+.project-images img {
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(154, 154, 154, 0.4);
 }
 
 .project-images:hover a {
