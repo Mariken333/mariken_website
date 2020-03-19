@@ -16,7 +16,10 @@
 // const imagePath = (name) => images(name, true)
 console.log('Hello World from Webpacker')
 import { scroll } from "./scroll";
+import { changeColor } from "./change_color";
+
 
 scroll();
+changeColor();
 
 
