@@ -1,118 +1,44 @@
 
 // banner //
 .banner {
-  background: asset-url("rodion.jpg");
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 1fr;
   background-size: cover;
-  height: 75vh;
-}
-
-.banner-container {
-  width: 75vw;
-  padding: 100px;
-}
-
-.banner-container h1 {
-  font-size: 2.5em;
-  color: #F4F4F4;
-  padding-left: 150px;
-}
-
-.banner-container a {
-  margin-left: 150px;
-}
-
-#name {
-  color: #E57A72;
-}
-
-#name:hover {
-  color: #FF8C42;
-  font-size: 64px;
-}
-
-.chevron-down .fa-chevron-down {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: white;
-  font-size: 55px;
-  transition-property: font-size;
-}
-
-.fa-chevron-down:hover {
-  font-size: 75px;
-}
-
-.container {
-  height: auto;
-  width: 80vw;
-  margin: 50px 0px 0px 150px;
-}
-
-.container h2 {
-  margin-bottom: 30px;
-}
-
-// PROJECTS CONTAINER //
-
-.grid-projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-  grid-template-row: 50px 250px;
-  justify-content: center;
-  font-size: 16px;
-}
-
-.grid-projects a {
-  text-decoration: none;
-  color: black;
-}
-
-.grid-projects a:hover {
-  text-decoration: none;
-  color: rgb(154, 154, 154);
-}
-
-.project-images img {
-  border-radius: 5px;
-  box-shadow: 1px 1px 1px rgba(154, 154, 154, 0.4);
-}
-
-.project-images:hover a {
-  opacity: 0.3
-}
-
-// SKILLS CONTAINER //
-
-.grid-skills {
-  display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-column-gap: 20px;
-  font-size: 16px;
-}
-
-@media (max-width: 540px) {
-
-html {
+  background-color: #F4F7F6;
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), asset-url("banner-img.jpg");
+  height: 100vh;
   width: 100vw;
-
+  margin: none;
 }
-  .navbar {
-    width: 100%;
-  }
 
-  .banner {
-    height: 25%;
-  }
+.banner-name {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+}
 
-  .banner-container {
-    padding: 10px;
-  }
+.banner-title {
+  justify-self: center;
+  align-self: center;
+}
 
-  .banner-container h1 {
-  font-size: 2.5em;
-  padding-left: 10px;
-  color: #F4F4F4;
-  }
+.banner-title h1 {
+  margin-bottom: 25px;
+  font-family:'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+.btn-burgundy {
+  background-color: #BC373E;
+  height: 50px;
+  width:250px;
+  padding: 10px;
+  font-family:'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 2px;
 }
