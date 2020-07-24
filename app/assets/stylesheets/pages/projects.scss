@@ -1,0 +1,74 @@
+
+.project-container {
+  height: 60vh;
+  padding: 25px 0px 0px 50px;
+}
+
+.project-container h1 {
+  margin-bottom: 25px;
+}
+
+.project-container h2 {
+  margin-top: 25px;
+}
+
+.project-description {
+  display: flex;
+}
+
+
+.travel-insurance {
+  background-color: #F4F7F6;
+  width: 100vw;
+}
+
+.img-scooter {
+  width: 300px;
+  height: 250px;
+  margin-right: 150px;
+  background-image: asset-url("unu.jpg");
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.img-travel {
+  width: 300px;
+  height: 250px;
+  margin-left: 150px;
+  background-image: asset-url("travel.jpg");
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.img-mobile {
+  width: 300px;
+  height: 250px;
+  margin-right: 150px;
+  background-image: asset-url("mobile.jpg");
+  background-size: cover;
+  border-radius: 2px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid #cecfd5;
+  padding: 10px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
