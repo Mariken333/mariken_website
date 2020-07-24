@@ -32,3 +32,95 @@
   color: #FFFFFF;
 }
 
+.home-container {
+  background-color: #F4F7F6;
+  width: 100vw;
+  height: 600px;
+}
+
+.home-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px;
+}
+
+.home-container-2 {
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: 600px;
+}
+
+.home-container-2 h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-product {
+  background-color: #FFFFFF;
+  width:300px;
+  height: auto;
+}
+
+.card-img-scooter {
+  width: 300px;
+  height: 250px;
+  background-image: asset-url("scooter.jpg");
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.card-img-travel {
+  width: 300px;
+  height: 250px;
+  background-image: asset-url("travel2.jpg");
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.card-img-mobile {
+  width: 300px;
+  height: 250px;
+  background-image: asset-url("mobile.jpg");
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.img-helpal {
+  background-image: asset-url("helpal.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  border-radius: 2px;
+}
+
+.img-hackathon {
+  background-image: asset-url("hackathon.jpeg");
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  border-radius: 2px;
+}
+
+
+.img-car {
+  background-image: asset-url("4060.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  border-radius: 2px;
+}
+
+
+.card-content {
+  height: 50px;
+  padding: 10px;
+}
+
+.card-button {
+  padding: 10px;
+  margin-bottom: 10px;
+}
