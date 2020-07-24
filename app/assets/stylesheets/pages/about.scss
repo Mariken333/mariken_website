@@ -1,103 +1,56 @@
-.about-grid {
+.container {
+  margin: 50px 50px;
   display: grid;
-  grid-template-columns: 10vw 15vw 35vw 15vw;
-  grid-template-rows: 25% auto;
-  grid-row-gap: 15px;
+  grid-template-columns: 40vw 40vw;
   grid-column-gap: 15px;
- }
-
- .about-grid h2 {
-  margin-bottom: 15px;
- }
-
-.bcg-lavender {
-  background-color: #D3B8CA;
-  padding: 25px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 3px #F4F4F4;
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 1;;
-  grid-row-end: 3;
 }
 
-.bcg-orange {
-  background-color: #FF8C42;
-  padding: 25px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 3px #F4F4F4;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+.img-grid {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 200px 200px;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
 }
 
-.bcg-yellow {
-  background-color: #FFEF96;
-  padding: 25px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 3px #F4F4F4;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 4 ;
+.img-a {
+  background-image: asset-url("img-a.jpg");
+  background-size: cover;
 }
 
-.bcg-yellow li {
-list-style-type: none;
+.img-b {
+  background-image: asset-url("img-b.jpg");
+  background-size: cover;
 }
 
-.about-icons {
-  display: flex;
-  align-items: center;
-  margin: 10px 10px 50px 10px;
+.img-c {
+  background-image: asset-url("img-c.jpg");
+  background-size: cover;
 }
 
-.about-icons p {
-  margin-left: 10px;
+.img-d {
+  background-image: asset-url("img-d.gif");
+  background-size: cover;
 }
 
-.fa-lightbulb {
-  font-size: 40px;
-  margin-top: 50px;
-  color:white;
- }
- .fa-lightbulb:hover {
-  color: rgba(255,255,255, 0.6);
+.img-e {
+  background-image: asset-url("img-e.jpg");
+  background-size: cover;
 }
 
-.lightbulb {
-  margin-top: 40px;
+.img-f {
+  background-image: asset-url("img-f.jpg");
+  background-size: cover;
 }
 
-.fa-magic {
-  font-size: 40px;
-  color:white;
-}
-.fa-magic:hover {
-  color: rgba(255,255,255, 0.6);
+.content p {
+  margin-bottom: 25px;
+  font-family:'Merriweather', serif;
+  font-size: 14px;
 }
 
-.fa-rocket {
-  font-size: 40px;
-  color:white;
+.content h1 {
+  margin-bottom: 25px;
+  font-family:'Montserrat', sans-serif;
+  font-size: 18px;
 }
-
-.fa-rocket:hover{
-  color: rgba(255,255,255, 0.6);
-}
-
-.circle-blue {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  background: asset-url("bluecircle.png");
-  text-align: center;
-}
-
-.fa-envelope {
-  margin-top: 50px;
-  font-size: 72px;
-}
-
