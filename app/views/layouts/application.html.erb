@@ -5,6 +5,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <script src="https://kit.fontawesome.com/03973d01eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -19,7 +20,7 @@
           <li><%= link_to "About me", pages_about_path %></li>
           <li><%= link_to "Projects", pages_projects_path %></li>
           <li><%= link_to "Web development", pages_web_development_path %></li>
-          <li><a href="#">Contact</a></li>
+          <li><%= link_to "Contact", pages_contact_path %></li>
         </div>
       </ul>
     </div>

@@ -17,19 +17,23 @@
   margin-left: 25px;
   font-family: 'Fira Sans', sans-serif;
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .banner-title {
-  justify-self: center;
-  align-self: center;
+  text-align: center;
 }
 
 .banner-title h1 {
-  margin-bottom: 25px;
   font-family:'Montserrat', sans-serif;
   font-size: 50px;
+  font-weight: 600;
   color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.banner-content {
+  margin-top: 300px;
 }
 
 .home-container {
@@ -63,6 +67,21 @@
   background-color: #FFFFFF;
   width:300px;
   height: auto;
+  border-radius: 3px;
+   box-shadow: 3px 3px 6px #d6d6d6;
+}
+
+.card-content h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .card-img-scooter {
@@ -70,7 +89,7 @@
   height: 250px;
   background-image: asset-url("scooter.jpg");
   background-size: cover;
-  border-radius: 2px;
+  border-radius: 3px 3px 0px 0px;;
 }
 
 .card-img-travel {
@@ -78,7 +97,7 @@
   height: 250px;
   background-image: asset-url("travel2.jpg");
   background-size: cover;
-  border-radius: 2px;
+  border-radius: 3px 3px 0px 0px;;
 }
 
 .card-img-mobile {
@@ -86,7 +105,7 @@
   height: 250px;
   background-image: asset-url("mobile.jpg");
   background-size: cover;
-  border-radius: 2px;
+  border-radius: 3px 3px 0px 0px;;
 }
 
 .img-helpal {
@@ -94,7 +113,7 @@
   background-size: cover;
   width: 300px;
   height: 250px;
-  border-radius: 2px;
+  border-radius: 3px 3px 0px 0px;
 }
 
 .img-hackathon {
@@ -102,7 +121,7 @@
   background-size: cover;
   width: 300px;
   height: 250px;
-  border-radius: 2px;
+  border-radius: 3px 3px 0px 0px;;
 }
 
 
@@ -111,16 +130,55 @@
   background-size: cover;
   width: 300px;
   height: 250px;
-  border-radius: 2px;
+  border-radius: 3px 3px 0px 0px;
 }
 
 
 .card-content {
-  height: 50px;
   padding: 10px;
 }
 
 .card-button {
+  height: 40px;
   padding: 10px;
-  margin-bottom: 10px;
+}
+
+.contact-container {
+  width: 100vw;
+  height: 450px;
+  background-color: #CE8359;
+  color: #FFFFFF;
+}
+
+.contact-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 50px;
+}
+
+.contact-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.contact-content {
+  margin: 15px 0px 15px 75px;
+}
+
+.contact-content ul {
+  list-style-type: none;
+}
+
+.contact-content li {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+}
+
+.contact-me h2{
+  margin-bottom: 50px;
+}
+
+.contact-me a {
+    margin-left: 50px;
 }

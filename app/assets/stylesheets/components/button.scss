@@ -6,22 +6,46 @@
   font-family:'Montserrat', sans-serif;
   font-size: 18px;
   color: #FFFFFF;
-  border-radius: 2px;
-}
+  border-radius: 3px;
+ }
 
 .btn-burgundy:hover {
   color: #d6d6d6;
+  background-color: #A93137;
 }
 
-.btn-gray {
-  background-color: #C4C4C4;
-   height: 50px;
+.btn-green {
+  background-color: #6DC6A4;
+  height: 50px;
   width:250px;
   padding: 10px;
   border-radius: 50px;
+  font-family:'Montserrat', sans-serif;
+  font-size: 14px;
   color: #FFFFFF;
+  box-shadow: 3px 3px 3px #d6d6d6;
 }
 
-.btn-gray:hover {
-  color: gray;
+.btn-green:hover {
+  background-color: #62B796;
+  color: #d6d6d6;
+}
+
+.btn-green-message {
+  background-color: #6DC6A4;
+  height: 50px;
+  width:250px;
+  padding: 10px;
+  border-radius: 50px;
+  font-family:'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  box-shadow: 3px 3px 3px #B97550
+;
+  margin-top: 15px;
+}
+
+.btn-green-message:hover {
+  background-color: #62B796;
+  color: #d6d6d6;
 }

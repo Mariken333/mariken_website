@@ -1,7 +1,9 @@
 
 .project-container {
-  height: 60vh;
+  height: 65vh;
   padding: 25px 0px 0px 50px;
+  position: relative;
+
 }
 
 .project-container h1 {
@@ -10,6 +12,12 @@
 
 .project-container h2 {
   margin-top: 25px;
+}
+
+
+.project-container p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
 }
 
 .project-description {
@@ -47,6 +55,15 @@
   background-image: asset-url("mobile.jpg");
   background-size: cover;
   border-radius: 2px;
+}
+
+.case-summary {
+    width: 600px;
+    padding: 10px;
+}
+
+.case-summary h2 {
+    margin-bottom: 10px;
 }
 
 h1 {

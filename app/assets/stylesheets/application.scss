@@ -23,6 +23,7 @@
 @import "pages/home";
 @import "pages/about";
 @import "pages/projects";
+@import "pages/web_development";
 @import "components/button";
 @import "components/footer";
 @import "components/navbar";
@@ -38,4 +39,5 @@
 
 a {
   text-decoration: none;
+  color: #FFFFFF;
 }
