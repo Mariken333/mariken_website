@@ -6,3 +6,23 @@
   height: 15em;
   margin-left: 50px;
 }
+
+
+@media (max-width: 720px) {
+
+  .img-helpal-mockup img {
+    width: 75vw;
+    height: auto;
+  }
+
+  .img-home-mockup img {
+    height: 75vw;
+    width: auto;
+    margin-left: 0px;
+  }
+
+  #border {
+    border-bottom: 1px solid #C5C7C6
+  }
+
+}

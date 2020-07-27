@@ -1,0 +1,35 @@
+.contact-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #CE8359;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+
+.contact-page h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 50px;
+}
+
+.contact-page h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .contact-page h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding: 25px;
+  }
+
+  .contact-page h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 25px;
+  }
+
+}
