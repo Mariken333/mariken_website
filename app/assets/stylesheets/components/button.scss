@@ -49,3 +49,18 @@
   background-color: #62B796;
   color: #d6d6d6;
 }
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .btn-burgundy {
+    background-color: #BC373E;
+    height: 50px;
+    width: auto;
+    padding: 10px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 3px;
+   }
+}
